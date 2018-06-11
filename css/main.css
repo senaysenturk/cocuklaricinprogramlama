@@ -1,8 +1,9 @@
 @charset "UTF-8";
 *{
-    font-family: Lato, sans-serif;
-    font-weight: 400;
+    font-family: Quicksand, sans-serif;
+    font-weight: 300;
 }
+
 html, body, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, table, caption, tbody, tfoot, thead, tr, th, td, textarea, button {
     margin: 0;
     padding: 0;
@@ -26,7 +27,7 @@ html {
 }
 
 html, button, input, select, textarea {
-    font-family: Lato, sans-serif;
+    font-family: Quicksand, sans-serif;
 }
 
 img {
@@ -82,7 +83,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 code, kbd, pre, samp {
-    font-family: Lato, sans-serif;
+    font-family: Quicksand, sans-serif;
     font-size: 1em
 }
 
@@ -943,7 +944,7 @@ main {
 input[type="text"], input[type="email"], input[type="password"], textarea {
     border: 1px solid #e6e6e6;
     box-sizing: border-box;
-    font-family: Lato, sans-serif;
+    font-family: Quicksand, sans-serif;
     font-weight: 300;
     color: #999999;
     font-size: 16px;

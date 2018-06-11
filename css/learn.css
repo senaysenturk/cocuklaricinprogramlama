@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Lato, sans-serif;
+    font-family: Quicksand, sans-serif;
 }
 
 html, body {
@@ -9,7 +9,7 @@ html, body {
     padding: 0;
     border: 0;
     width: 100%;
-    font-family: Lato, serif;
+    font-family: Quicksand, serif;
 }
 
 .pageHeader {
@@ -86,7 +86,7 @@ html, body {
     text-transform: uppercase;
     color: #fff;
     perspective: 1000px;
-    font-weight: 700;
+    font-weight: 300;
     text-decoration: none
 }
 

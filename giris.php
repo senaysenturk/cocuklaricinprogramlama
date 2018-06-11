@@ -1,4 +1,4 @@
-<?php include('server.php') ?>
+<?php include('veritabani.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,11 +15,11 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['login'])) { //kullanıcı girişi
-        require 'server.php';
+        require 'veritabani.php';
 
     } elseif (isset($_POST['register'])) { //kullanıcı kaydı oluşturma
 
-        require 'server.php';
+        require 'veritabani.php';
 
     }
 }
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <div class="header-menu-menu">
                             <ul id="menu-menu-glowne" class="menu">
                                 <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a
-                                            href="giris.php"><span data-hover="Anasayfa">Anasayfa</span></a></li>
+                                            href="index.php"><span data-hover="Anasayfa">Anasayfa</span></a></li>
                             </ul>
                         </div>
                     </div>
