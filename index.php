@@ -95,54 +95,7 @@
 <!--<main role="main">
     </div>
     <section id="diller" class="diller group"><h2 class="sectionHeader"></h2>
-        <article class="diller-item" id="algoritma"><h3 class="is-hidden">Algoritma</h3>
-            <div class="layout"><i class="ico ico-algoritma"></i>
-                <div class="animc"><h2>Algoritma</h2>
-                    <p><strong>Front-end yazılımı alanında kendini geliştirmek isteyen ya da bu alana yönelmek isteyen çocukları bir araya getiren eğitim etkinliğidir.
-                        ÇİP'in amacı, Türkiye’de web yazılım alanında farkındalık yaratıp gelişimine önderlik ederken,
-                        konuyla ilgilenen profesyonellerin ve öğrencilerin arayüz yazılım hakkında bilgi sahibi olmasını sağlayarak kariyerlerine katkıda bulunmaktır.</strong></p>
-                    <footer>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JS</li>
-                        </ul>
-                    </footer>
-                </div>
-            </div>
-        </article>
-        <article class="diller-item" id="web">
-            <h3 class="is-hidden">Web Programlama</h3>
-            <div class="layout"><i class="ico ico-web animated fadeInLeft"></i>
-                <div class="animc animated fadeInRight"><h2>Web Programlama</h2>
-                    <p><strong>Back-end yazılımı alanında kendini geliştirmek isteyen ya da bu alana yönelmek isteyen çocukları bir araya getiren eğitim etkinliğidir.
-                        ÇİP'in amacı, Türkiye’de web yazılım alanında farkındalık yaratıp gelişimine önderlik ederken,
-                        konuyla ilgilenen profesyonellerin ve öğrencilerin arayüz yazılım hakkında bilgi sahibi olmasını sağlayarak kariyerlerine katkıda bulunmaktır.</strong></p>
-                    <footer>
-                        <ul>
-                            <li>PHP</li>
-                            <li>MSSQL</li>
-                        </ul>
-                    </footer>
-                </div>
-            </div>
-        </article>
-        <article class="diller-item" id="mobile"><h3 class="is-hidden">Mobil Programlama</h3>
-            <div class="layout"><i class="ico ico-mobile"></i>
-                <div class="animc"><h2>Mobil Programlama</h2>
-                    <p><strong>Mobil yazılımı alanında kendini geliştirmek isteyen ya da bu alana yönelmek isteyen çocukları bir araya getiren eğitim etkinliğidir.
-                        ÇİP'in amacı, Türkiye’de web yazılım alanında farkındalık yaratıp gelişimine önderlik ederken,
-                        konuyla ilgilenen profesyonellerin ve öğrencilerin arayüz yazılım hakkında bilgi sahibi olmasını sağlayarak kariyerlerine katkıda bulunmaktır.</strong></p>
-                    <footer>
-                        <ul>
-                            <li>Android</li>
-                            <li>iOS</li>
-                            <li>Windows Phone</li>
-                        </ul>
-                    </footer>
-                </div>
-            </div>
-        </article>
+        ...
     </section>
   </main>-->
 
