@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>< Ç İ P > | Çocuklar için Programlama</title>
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/alert.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
+    <style>
+        #quiz {
+            height: 600px;
+            display: block;
+        }
+
+        .btext {
+            color: #f9f3f4;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+        }
+
+        #particles-js {
+            background-image: url('img/image1.jpg');
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<div id="particles-js">
+    <div class="btext">
+        <header role="banner" class="pageHeader">
+            <nav role="navigation" class="naviHead">
+                <div class="layout"><a href="index.php">
+                    <div class="logo">ÇİP</div>
+                </a><a href="#" id="navTrigger1">Menu</a>
+                    <div class="header-menu-menu">
+                        <ul id="menu-menu-glowne" class="menu">
+                            <li id="menu-item-4"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a
+                                    href="giris.php"><span data-hover="Anasayfa">Anasayfa</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div id="quiz"></div>
+            </div>
+            <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <script src="js/alert.js"></script>
+            <script src="js/quiz.js"></script>
+            <script>
+                $(function () {
+                    $('#quiz').quiz("sorular.json");
+                });
+            </script>
+
+
+            <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+            <script>
+                particlesJS.load('particles-js', 'particles.json',
+                    function () {
+                        console.log('JSON yükleniyor...')
+                    })
+            </script>
+        </header>
+    </div>
+</div>
+<footer role="contentinfo" class="pageFooter">
+    <div class="layout">
+        <small><strong class="logo3">Ç İ P</strong><span>&copy; 2018 - All rights reserved</span></small>
+    </div>
+</footer>
+
+</body>
+</html>

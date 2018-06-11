@@ -1,0 +1,180 @@
+*{
+    font-family: Lato, sans-serif;
+}
+
+/* Content CSS Start */
+#content {
+    margin: 12px 0 0 0;
+}
+
+#col-1 {
+    width: 621px;
+    float: left;
+}
+
+
+/* ***********************HOW IT WORKS BLOCK ****************************** */
+#how {
+    height: 249px;
+    xleft: 473px;
+    margin: 200px 0 0 294px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+
+    /*overflow:hidden;*/
+
+}
+
+.how_menu {
+    height: 100%;
+    width: 246px;
+    xmargin: -10px 0 0 37px;
+    position: absolute;
+    xtop: 0;
+    xleft: 800px;
+}
+.how_menu a {
+    text-decoration:none;
+}
+#how_main {
+    height: 320px;
+    width: 350px;
+    xposition: absolute;
+    xtop: 0;
+    xleft: 800px;
+    overflow:hidden;
+}
+
+.how_menu a span {
+    height: 82px;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    background-color: #e2e2e2;
+    display:block;
+
+}
+.how_menu a span:hover {
+    cursor:pointer;
+}
+
+.how_menu a span:hover h3 {
+    color:#ff5500;
+}
+
+.how_menu a span.selected {
+    background-color:#ffffff;
+}
+
+
+.how_menu a span p {
+    font-size:14px;
+    font-weight:bold;
+    text-indent:14px;
+    color: #666666;
+
+
+}
+.how_menu a span h3 {
+    font-size:18px;
+    font-weight:bold;
+    text-indent:14px;
+    padding-top:14px;
+
+}
+
+#ogren, #max, #frankie {
+    width:99999px;
+    height: 320px;
+}
+
+
+
+#how_main div div {
+    xfloat:left;
+}
+
+div.cartoon {
+    float:left;
+    width:322px;
+    height:320px;
+    position:relative;
+    text-align: center;
+}
+
+div.nb-text img {
+    margin: 0 0 0 7px;
+}
+
+div.nb-text
+{
+    margin-left: 74px;
+    margin-top: -43px;
+    width: 220px;
+}
+
+div.nb-text2
+{
+    margin-left: 182px;
+    margin-top: -34px;
+    width: 220px;
+}
+
+div.story {
+    float:left;
+    width: 323px;
+    height:248px;
+    position:relative;
+    border:1px;
+
+
+}
+
+div.story p {
+    font-size:13px;
+    padding-left:12px;
+    padding-right:12px;
+
+}
+
+div.story .hnav{
+    xposition:absolute;
+    xright:10px;
+    xbottom:10px;
+    xheight:22px;
+    xwidth: 150px;
+    xtext-align:right;
+
+}
+
+.hnav a {
+    padding:6px 12px 6px 12px;
+    background-color:#4EBAFF;
+    color:#000;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.hnav a:hover {
+    background-color:#ff5500;
+}
+
+div.story h3 {
+    font-size:20px;
+    font-weight:bold;
+    padding-top:12px;
+    padding-left:12px;
+    color:#ff5500;
+
+}
+
+/* --------------------------- /end HOW it works block --------------------- */
+
+
+.clear {
+    clear:both;
+    height:0;
+}
+

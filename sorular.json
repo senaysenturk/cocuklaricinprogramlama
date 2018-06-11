@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "&#60h1&#62",
+        "&#60h6&#62",
+        "&#60head&#62",
+        "&#60heading&#62"
+      ],
+      "correct": {
+        "index": 0
+      },
+      "number": 1,
+      "prompt": "Hangisi en büyük yazı boyutunu belirler?"
+    },
+    {
+      "answers": [
+        "&#60break&#62",
+        "&#60br&#62",
+        "&#60lb&#62"
+      ],
+      "correct": {
+        "index": 1,
+        "text": ""
+      },
+      "number": 2,
+      "prompt": "Hangisi alt satıra geçmek için kullanılan HTML tag'ıdır?"
+    },
+    {
+      "answers": [
+        "&#60body bgcolor&#61&#34yellow&#34&#62",
+        "&#60background>yellow&#60&#47background&#62",
+        "&#60body color&#61&#34yellow&#34&#62"
+      ],
+      "correct": {
+        "index": 2,
+        "text": ""
+      },
+      "number": 3,
+      "prompt": "Hangisi arkaplan rengi için kullanılır?"
+    },
+    {
+      "answers": [
+        "&#60b&#62",
+        "&#60bold&#62",
+        "&#60bb&#62",
+        "&#60bid&#62"
+      ],
+      "correct": {
+        "index": 0,
+        "text": ""
+      },
+      "image": "",
+      "number": 4,
+      "prompt": "Hangisi koyu formatta yazı için kullanılır?"
+    },
+    {
+      "answers": [
+        "&#60i&#62",
+        "&#60italics&#62"
+      ],
+      "correct": {
+        "index": 0,
+        "text": ""
+      },
+      "image": "",
+      "number": 5,
+      "prompt": "Hangisi italik formatta yazı için kullanılır?"
+    },
+    {
+      "answers": [
+        "&#60td valign=&#34left&#34&#62",
+        "&#60tdleft&#34&#62",
+        "&#60td align=&#34left&#34&#62",
+        "&#60td leftalign&#62"
+      ],
+      "correct": {
+        "index": 2,
+        "text": ""
+      },
+      "image": "",
+      "number": 6,
+      "prompt": "Hangisi bir tablo hücresi içini sola hizalamak için kullanılır?"
+    },
+    {
+      "answers": [
+        "&#60list&#62",
+        "&#60ul&#62",
+        "&#60ol&#62",
+        "&#60dl&#62"
+      ],
+      "correct": {
+        "index": 2,
+        "text": ""
+      },
+      "image": "",
+      "number": 7,
+      "prompt": "Maddeleri alt alta numaralandırılmış olarak listelemeyi nasıl yaparsınız?"
+    },
+    {
+      "answers": [
+        "&#60list&#62",
+        "&#60ul&#62",
+        "&#60ol&#62",
+        "&#60dl&#62"
+      ],
+      "correct": {
+        "index": 1,
+        "text": ""
+      },
+      "image": "",
+      "number": 8,
+      "prompt": "Maddeleri alt alta madde imi kullanarak listelemeyi nasıl yaparsınız?"
+    },
+    {
+      "answers": [
+        "&#60a href=&#34url&#34 target=&#34_blank&#34&#62",
+        "&#60a href=&#34url&#34 target=&#34new&#34&#62",
+        "&#60a href=&#34url&#34 new&#62"
+      ],
+      "correct": {
+        "index": 1,
+        "text": ""
+      },
+      "number": 9,
+      "prompt": "Belirttiğiniz linki tarayıcınızda yeni bir sayfada nasıl açarsınız?"
+    },
+    {
+      "answers": [
+        "&#60mail href=&#34xxx@yyy&#34&#62",
+        "&#60a href=&#34mailto:xxx@yyy&#34&#62",
+        "&#60mail&#62xxx@yyy&#60/mail&#62",
+        "&#60a href=&#34xxx@yyy&#34&#62"
+      ],
+      "correct": {
+        "index": 1,
+        "text": ""
+      },
+      "number": 10,
+      "prompt": "Nasıl e-mail linki oluşturursunuz?"
+    }
+  ],
+  "title": "HTML Bilginizi Ölçün"
+}
