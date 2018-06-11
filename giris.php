@@ -110,14 +110,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         </div>
 
                         <button type="submit" class="button button-block" name="register">Kayıt Ol</button>
-
                     </form>
-
                 </div>
-
-            </div><!-- tab-content -->
-
-        </div> <!-- /form -->
+              </div>
+           </div> 
         </header>
     </div>
 </div>
