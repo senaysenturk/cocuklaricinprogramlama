@@ -57,7 +57,7 @@
                                 <h2><a href="#web"><span class="onDesktop">Web Programlama</span><span
                                                 class="onMobile">Web Programlama</span></a></h2>
                                 <p>HTML / CSS / JS </p>
-                                <p>PHP / MSSQL </p></div>
+                                <p>PHP / MySQL </p></div>
                         </div>
                     </article>
                     <article class="dillerSimple-item" data-type="2"><h3 class="is-hidden">Mobil Programlama</h3>
