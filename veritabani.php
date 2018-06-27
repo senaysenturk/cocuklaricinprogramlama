@@ -8,6 +8,7 @@ $errors = array();
 
 // Veritabanı bağlantısı
 $db = mysqli_connect('localhost', 'root', '123', 'accounts');
+$db->set_charset("utf8");
 
 // Kullanıcı Kaydı
 if (isset($_POST['register'])) {
